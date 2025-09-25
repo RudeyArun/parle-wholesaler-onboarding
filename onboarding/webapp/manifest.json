@@ -14,6 +14,19 @@
       "id": "@sap/generator-fiori:basic",
       "version": "1.18.7",
       "toolsId": "c547ac49-134e-4d20-a479-08beb7b76157"
+    },
+    "crossNavigation": {
+      "inbounds": {
+        "onboarding-manage": {
+          "semanticObject": "onboarding",
+          "action": "manage",
+          "title": "{{onboarding-manage.flpTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
+        }
+      }
     }
   },
   "sap.ui": {
